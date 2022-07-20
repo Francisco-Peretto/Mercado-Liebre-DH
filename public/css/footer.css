@@ -1,0 +1,20 @@
+footer {
+    background-color:#ffffff;
+    text-align: center; /**/
+    margin-top: 5vh;
+}
+
+footer i {
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 1vh;
+}
+
+footer i:hover {
+    color:#39b54a;
+}
+
+.copyright {
+    padding-top: 2vh;
+    text-align: center;
+}

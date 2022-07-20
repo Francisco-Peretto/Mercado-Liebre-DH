@@ -1,0 +1,71 @@
+.main-header { /* contenedor logo, búsqueda y frase */
+    background-color: #EAC926;
+    padding: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.main-header-top-bar {
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    align-self: left;
+    width: 250px;
+}
+
+.search {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.search>input { /* placeholder de búsqueda */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    padding: 10px;
+}
+
+.copy-header { /* Comprá en cuotas... */
+    text-align: center; 
+    white-space: nowrap;
+}
+
+nav a { /* Todos los enlaces dentro del navbar */
+    display: none;
+}
+
+.main-navbar {
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.main-navbar a {
+    text-decoration: none;
+    margin: 0 5px;    
+    padding: 5px 0;
+    font-size: 17px;
+    display: inline-block;
+}
+
+.burger-menu {
+    display: block;
+    max-width: 50px;
+    padding: 15px 0;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+}
