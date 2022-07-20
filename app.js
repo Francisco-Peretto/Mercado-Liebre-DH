@@ -1,4 +1,3 @@
-// Entrega 18 de julio o clase 17  eliminar node module y package-lock
 const express = require('express');
 const app = express();
 const path = require('path'); // unificar rutas
